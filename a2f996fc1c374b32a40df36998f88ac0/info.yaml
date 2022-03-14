@@ -1,0 +1,9 @@
+abstract: This paper falls in the category of parameter efficient fine-tuning, where
+  the goal is to use as few parameters as possible to achieve almost the same accuracy
+  as if we were to fine-tune the whole model.
+ref: BitfitSimple
+time-added: 2022-03-14-17:13:17
+title: 'BitFit: Simple Parameter-efficient Fine-tuning for Transformer-based Masked
+  Language-models'
+type: article
+url: https://www.assemblyai.com/blog/bitfit/

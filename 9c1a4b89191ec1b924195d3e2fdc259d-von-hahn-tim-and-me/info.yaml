@@ -1,0 +1,34 @@
+abstract: Machine learning can be enhanced through the integration of external knowledge.
+  This method, called knowledge informed machine learning, is also applicable within
+  the field of Prognostics and Health Management (PHM). In this paper, the various
+  methods of knowledge informed machine learning, from a PHM context, are reviewed
+  with the goal of helping the reader understand the domain. In addition, a knowledge
+  informed machine learning technique is demonstrated, using the common IMS and PRONOSTIA
+  bearing data sets, for remaining useful life (RUL) prediction. Specifically, knowledge
+  is garnered from the field of reliability engineering which is represented through
+  the Weibull distribution. The knowledge is then integrated into a neural network
+  through a novel Weibull-based loss function. A thorough statistical analysis of
+  the Weibull-based loss function is conducted, demonstrating the effectiveness of
+  the method on the PRONOSTIA data set. However, the Weibull-based loss function is
+  less effective on the IMS data set. The results, shortcomings, and benefits of the
+  approach are discussed in length. Finally, all the code is publicly available for
+  the benefit of other researchers.
+archiveprefix: arXiv
+author: von Hahn, Tim and Mechefske, Chris K
+author_list:
+- family: von Hahn
+  given: Tim
+- family: Mechefske
+  given: Chris K
+eprint: 2201.01769v1
+file: 2201.01769v1.pdf
+files:
+- tmpj46yu70a.pdf
+month: Jan
+primaryclass: cs.LG
+ref: 2201.01769v1
+time-added: 2022-03-14-17:05:39
+title: Knowledge Informed Machine Learning using a Weibull-based Loss Function
+type: article
+url: http://arxiv.org/abs/2201.01769v1
+year: '2022'
