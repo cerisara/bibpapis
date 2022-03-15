@@ -1,0 +1,35 @@
+abstract: Large transformer models have shown extraordinary success in achieving state-of-the-art
+  results in many natural language processing applications. However, training and
+  deploying these models can be prohibitively costly for long sequences, as the standard
+  self-attention mechanism of the Transformer uses $O(n^2)$ time and space with respect
+  to sequence length. In this paper, we demonstrate that the self-attention mechanism
+  can be approximated by a low-rank matrix. We further exploit this finding to propose
+  a new self-attention mechanism, which reduces the overall self-attention complexity
+  from $O(n^2)$ to $O(n)$ in both time and space. The resulting linear transformer,
+  the \textit{Linformer}, performs on par with standard Transformer models, while
+  being much more memory- and time-efficient.
+archiveprefix: arXiv
+author: Wang, Sinong and Li, Belinda Z. and Khabsa, Madian and Fang, Han and Ma, Hao
+author_list:
+- family: Wang
+  given: Sinong
+- family: Li
+  given: Belinda Z.
+- family: Khabsa
+  given: Madian
+- family: Fang
+  given: Han
+- family: Ma
+  given: Hao
+eprint: 2006.04768v3
+file: 2006.04768v3.pdf
+files:
+- tmpvvp317xo.pdf
+month: Jun
+primaryclass: cs.LG
+ref: 2006.04768v3
+time-added: 2022-03-15-07:20:06
+title: 'Linformer: Self-Attention with Linear Complexity'
+type: article
+url: http://arxiv.org/abs/2006.04768v3
+year: '2020'
