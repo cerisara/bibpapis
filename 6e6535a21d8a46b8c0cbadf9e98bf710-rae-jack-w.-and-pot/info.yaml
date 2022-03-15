@@ -1,0 +1,32 @@
+abstract: We present the Compressive Transformer, an attentive sequence model which
+  compresses past memories for long-range sequence learning. We find the Compressive
+  Transformer obtains state-of-the-art language modelling results in the WikiText-103
+  and Enwik8 benchmarks, achieving 17.1 ppl and 0.97 bpc respectively. We also find
+  it can model high-frequency speech effectively and can be used as a memory mechanism
+  for RL, demonstrated on an object matching task. To promote the domain of long-range
+  sequence learning, we propose a new open-vocabulary language modelling benchmark
+  derived from books, PG-19.
+archiveprefix: arXiv
+author: Rae, Jack W. and Potapenko, Anna and Jayakumar, Siddhant M. and Lillicrap,
+  Timothy P.
+author_list:
+- family: Rae
+  given: Jack W.
+- family: Potapenko
+  given: Anna
+- family: Jayakumar
+  given: Siddhant M.
+- family: Lillicrap
+  given: Timothy P.
+eprint: 1911.05507v1
+file: 1911.05507v1.pdf
+files:
+- tmp54t53bcg.pdf
+month: Nov
+primaryclass: cs.LG
+ref: 1911.05507v1
+time-added: 2022-03-15-07:32:40
+title: Compressive Transformers for Long-Range Sequence Modelling
+type: article
+url: http://arxiv.org/abs/1911.05507v1
+year: '2019'
