@@ -1,0 +1,27 @@
+address: Cambridge, Massachusetts, USA
+author: Shriberg, Elizabeth and Dhillon, Raj and Bhagat, Sonali and Ang, Jeremy and
+  Carvey, Hannah
+author_list:
+- family: Shriberg
+  given: Elizabeth
+- family: Dhillon
+  given: Raj
+- family: Bhagat
+  given: Sonali
+- family: Ang
+  given: Jeremy
+- family: Carvey
+  given: Hannah
+booktitle: Proceedings of the 5th {SIG}dial Workshop on Discourse and Dialogue at
+  {HLT}-{NAACL} 2004
+files:
+- w04-2319.bib
+month: April 30 - May 1
+pages: 97--100
+publisher: Association for Computational Linguistics
+ref: shriberg-etal-2004-icsi
+time-added: 2022-03-16-09:43:11
+title: The {ICSI} Meeting Recorder Dialog Act ({MRDA}) Corpus
+type: inproceedings
+url: https://aclanthology.org/W04-2319
+year: '2004'
