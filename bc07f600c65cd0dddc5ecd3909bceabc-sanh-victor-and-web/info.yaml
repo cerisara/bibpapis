@@ -1,0 +1,121 @@
+abstract: Large language models have recently been shown to attain reasonable zero-shot
+  generalization on a diverse set of tasks (Brown et al., 2020). It has been hypothesized
+  that this is a consequence of implicit multitask learning in language models' pretraining
+  (Radford et al., 2019). Can zero-shot generalization instead be directly induced
+  by explicit multitask learning? To test this question at scale, we develop a system
+  for easily mapping any natural language tasks into a human-readable, prompted form.
+  We convert a large set of supervised datasets, each with multiple prompts with diverse
+  wording. These prompted datasets allow for benchmarking the ability of a model to
+  perform completely unseen tasks. We finetune a pretrained encoder-decoder model
+  (Raffel et al., 2020; Lester et al., 2021) on this multitask mixture covering a
+  wide variety of tasks. The model attains strong zero-shot performance on several
+  standard datasets, often outperforming models up to 16x its size. Further, our approach
+  attains strong performance on a subset of tasks from the BIG-bench benchmark, outperforming
+  models up to 6x its size. All prompts and trained models are available at https://github.com/
+  bigscience-workshop/promptsource/ and https://huggingface.co/bigscience/T0pp.
+archiveprefix: arXiv
+author: Sanh, Victor and Webson, Albert and Raffel, Colin and Bach, Stephen H. and
+  Sutawika, Lintang and Alyafeai, Zaid and Chaffin, Antoine and Stiegler, Arnaud and
+  Scao, Teven Le and Raja, Arun and Dey, Manan and Bari, M Saiful and Xu, Canwen and
+  Thakker, Urmish and Sharma, Shanya Sharma and Szczechla, Eliza and Kim, Taewoon
+  and Chhablani, Gunjan and Nayak, Nihal and Datta, Debajyoti and Chang, Jonathan
+  and Jiang, Mike Tian-Jian and Wang, Han and Manica, Matteo and Shen, Sheng and Yong,
+  Zheng Xin and Pandey, Harshit and Bawden, Rachel and Wang, Thomas and Neeraj, Trishala
+  and Rozen, Jos and Sharma, Abheesht and Santilli, Andrea and Fevry, Thibault and
+  Fries, Jason Alan and Teehan, Ryan and Biderman, Stella and Gao, Leo and Bers, Tali
+  and Wolf, Thomas and Rush, Alexander M.
+author_list:
+- family: Sanh
+  given: Victor
+- family: Webson
+  given: Albert
+- family: Raffel
+  given: Colin
+- family: Bach
+  given: Stephen H.
+- family: Sutawika
+  given: Lintang
+- family: Alyafeai
+  given: Zaid
+- family: Chaffin
+  given: Antoine
+- family: Stiegler
+  given: Arnaud
+- family: Scao
+  given: Teven Le
+- family: Raja
+  given: Arun
+- family: Dey
+  given: Manan
+- family: Bari
+  given: M Saiful
+- family: Xu
+  given: Canwen
+- family: Thakker
+  given: Urmish
+- family: Sharma
+  given: Shanya Sharma
+- family: Szczechla
+  given: Eliza
+- family: Kim
+  given: Taewoon
+- family: Chhablani
+  given: Gunjan
+- family: Nayak
+  given: Nihal
+- family: Datta
+  given: Debajyoti
+- family: Chang
+  given: Jonathan
+- family: Jiang
+  given: Mike Tian-Jian
+- family: Wang
+  given: Han
+- family: Manica
+  given: Matteo
+- family: Shen
+  given: Sheng
+- family: Yong
+  given: Zheng Xin
+- family: Pandey
+  given: Harshit
+- family: Bawden
+  given: Rachel
+- family: Wang
+  given: Thomas
+- family: Neeraj
+  given: Trishala
+- family: Rozen
+  given: Jos
+- family: Sharma
+  given: Abheesht
+- family: Santilli
+  given: Andrea
+- family: Fevry
+  given: Thibault
+- family: Fries
+  given: Jason Alan
+- family: Teehan
+  given: Ryan
+- family: Biderman
+  given: Stella
+- family: Gao
+  given: Leo
+- family: Bers
+  given: Tali
+- family: Wolf
+  given: Thomas
+- family: Rush
+  given: Alexander M.
+eprint: 2110.08207v2
+file: 2110.08207v2.pdf
+files:
+- tmp6i8ny8sq.pdf
+month: Oct
+primaryclass: cs.LG
+ref: 2110.08207v2
+time-added: 2022-03-16-09:19:48
+title: Multitask Prompted Training Enables Zero-Shot Task Generalization
+type: article
+url: http://arxiv.org/abs/2110.08207v2
+year: '2021'
