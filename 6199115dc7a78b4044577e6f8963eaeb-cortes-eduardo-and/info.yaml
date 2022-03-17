@@ -1,0 +1,44 @@
+abstract: 'Question classification is an important component of Question Answering
+  Systems responsible for identifying the type of an answer a particular question
+  requires. For instance, {``}Who is the prime minister of the United Kingdom?{''''}
+  demands a name of a PERSON, while {``}When was the queen of the United Kingdom born?{''''}
+  entails a DATE. This work makes an extensible review of the most recent methods
+  for Question Classification, taking into consideration their applicability in low-resourced
+  languages. First, we propose a manual classification of the current state-of-the-art
+  methods in four distinct categories: low, medium, high, and very high level of dependency
+  on external resources. Second, we applied this categorization in an empirical comparison
+  in terms of the amount of data necessary for training and performance in different
+  languages. In addition to complementing earlier works in this field, our study shows
+  a boost on methods relying on recent language models, overcoming methods not suitable
+  for low-resourced languages.'
+address: Marseille, France
+author: Cortes, Eduardo and Woloszyn, Vinicius and Binder, Arne and Himmelsbach, Tilo
+  and Barone, Dante and M{\"o}ller, Sebastian
+author_list:
+- family: Cortes
+  given: Eduardo
+- family: Woloszyn
+  given: Vinicius
+- family: Binder
+  given: Arne
+- family: Himmelsbach
+  given: Tilo
+- family: Barone
+  given: Dante
+- family: M{\"o}ller
+  given: Sebastian
+booktitle: Proceedings of the 12th Language Resources and Evaluation Conference
+files:
+- 2020.lrec-1.665.bib
+isbn: 979-10-95546-34-4
+language: English
+month: May
+pages: 5408--5416
+publisher: European Language Resources Association
+ref: cortes-etal-2020-empirical
+time-added: 2022-03-17-10:42:25
+title: An Empirical Comparison of Question Classification Methods for Question Answering
+  Systems
+type: inproceedings
+url: https://aclanthology.org/2020.lrec-1.665
+year: '2020'
