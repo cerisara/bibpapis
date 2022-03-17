@@ -1,0 +1,20 @@
+address: Portland, Oregon, USA
+author: Margolis, Anna and Ostendorf, Mari
+author_list:
+- family: Margolis
+  given: Anna
+- family: Ostendorf
+  given: Mari
+booktitle: 'Proceedings of the 49th Annual Meeting of the Association for Computational
+  Linguistics: Human Language Technologies'
+files:
+- p11-2021.bib
+month: June
+pages: 118--124
+publisher: Association for Computational Linguistics
+ref: margolis-ostendorf-2011-question
+time-added: 2022-03-17-11:27:07
+title: Question Detection in Spoken Conversations Using Textual Conversations
+type: inproceedings
+url: https://aclanthology.org/P11-2021
+year: '2011'
