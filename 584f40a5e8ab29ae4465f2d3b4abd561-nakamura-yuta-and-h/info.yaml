@@ -1,0 +1,47 @@
+abstract: 'For the safe sharing pre-trained language models, no guidelines exist at
+  present owing to the difficulty in estimating the upper bound of the risk of privacy
+  leakage. One problem is that previous studies have assessed the risk for different
+  real-world privacy leakage scenarios and attack methods, which reduces the portability
+  of the findings. To tackle this problem, we represent complex real-world privacy
+  leakage scenarios under a universal parameterization, \textit{Knowledge, Anonymization,
+  Resource, and Target} (KART). KART parameterization has two merits: (i) it clarifies
+  the definition of privacy leakage in each experiment and (ii) it improves the comparability
+  of the findings of risk assessments. We show that previous studies can be simply
+  reviewed by parameterizing the scenarios with KART. We also demonstrate privacy
+  risk assessments in different scenarios under the same attack method, which suggests
+  that KART helps approximate the upper bound of risk under a specific attack or scenario.
+  We believe that KART helps integrate past and future findings on privacy risk and
+  will contribute to a standard for sharing language models.'
+archiveprefix: arXiv
+author: Nakamura, Yuta and Hanaoka, Shouhei and Nomura, Yukihiro and Hayashi, Naoto
+  and Abe, Osamu and Yada, Shuntaro and Wakamiya, Shoko and Aramaki, Eiji
+author_list:
+- family: Nakamura
+  given: Yuta
+- family: Hanaoka
+  given: Shouhei
+- family: Nomura
+  given: Yukihiro
+- family: Hayashi
+  given: Naoto
+- family: Abe
+  given: Osamu
+- family: Yada
+  given: Shuntaro
+- family: Wakamiya
+  given: Shoko
+- family: Aramaki
+  given: Eiji
+eprint: 2101.00036v2
+file: 2101.00036v2.pdf
+files:
+- tmpgvfg-0-y.pdf
+month: Dec
+primaryclass: cs.CL
+ref: 2101.00036v2
+time-added: 2022-03-18-07:20:05
+title: 'KART: Parameterization of Privacy Leakage Scenarios from Pre-trained   Language
+  Models'
+type: article
+url: http://arxiv.org/abs/2101.00036v2
+year: '2020'
