@@ -1,0 +1,28 @@
+author: Shazeer, Noam and Mirhoseini, Azalia and Maziarz, Krzysztof and Davis, Andy
+  and Le, Quoc V. and Hinton, Geoffrey E. and Dean, Jeff
+author_list:
+- family: Shazeer
+  given: Noam
+- family: Mirhoseini
+  given: Azalia
+- family: Maziarz
+  given: Krzysztof
+- family: Davis
+  given: Andy
+- family: Le
+  given: Quoc V.
+- family: Hinton
+  given: Geoffrey E.
+- family: Dean
+  given: Jeff
+booktitle: ICLR (Poster)
+ee: https://openreview.net/forum?id=B1ckMDqlg
+files:
+- ii.bib
+ref: SparseMoE
+time-added: 2022-03-18-13:53:44
+title: 'Outrageously Large Neural Networks: The Sparsely-Gated Mixture-of-Experts
+  Layer.'
+type: inproceedings
+url: http://dblp.uni-trier.de/db/conf/iclr/iclr2017.html#ShazeerMMDLHD17
+year: '2017'
