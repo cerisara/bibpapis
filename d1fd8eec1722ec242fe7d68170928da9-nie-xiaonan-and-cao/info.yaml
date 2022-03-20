@@ -1,0 +1,50 @@
+abstract: Mixture-of-experts (MoE) is becoming popular due to its success in improving
+  the model quality, especially in Transformers. By routing tokens with a sparse gate
+  to a few experts that each only contains part of the full model, MoE keeps the model
+  size unchanged and significantly reduces per-token computation, which effectively
+  scales neural networks. However, we found that the current approach of jointly training
+  experts and the sparse gate introduces a negative impact on model accuracy, diminishing
+  the efficiency of expensive large-scale model training. In this work, we proposed
+  Dense-To-Sparse gate (DTS-Gate) for MoE training. Specifically, instead of using
+  a permanent sparse gate, DTS-Gate begins as a dense gate that routes tokens to all
+  experts, then gradually and adaptively becomes sparser while routes to fewer experts.
+  MoE with DTS-Gate naturally decouples the training of experts and the sparse gate
+  by training all experts at first and then learning the sparse gate. Experiments
+  show that compared with the state-of-the-art Switch-Gate in GPT-MoE(1.5B) model
+  with OpenWebText dataset(40GB), DTS-Gate can obtain 2.0x speed-up to reach the same
+  validation perplexity, as well as higher FLOPs-efficiency of a 1.42x speed-up.
+archiveprefix: arXiv
+author: Nie, Xiaonan and Cao, Shijie and Miao, Xupeng and Ma, Lingxiao and Xue, Jilong
+  and Miao, Youshan and Yang, Zichao and Yang, Zhi and Cui, Bin
+author_list:
+- family: Nie
+  given: Xiaonan
+- family: Cao
+  given: Shijie
+- family: Miao
+  given: Xupeng
+- family: Ma
+  given: Lingxiao
+- family: Xue
+  given: Jilong
+- family: Miao
+  given: Youshan
+- family: Yang
+  given: Zichao
+- family: Yang
+  given: Zhi
+- family: Cui
+  given: Bin
+eprint: 2112.14397v1
+file: 2112.14397v1.pdf
+files:
+- tmpnj7xlgbf.pdf
+month: Dec
+notes: notes.tex
+primaryclass: cs.LG
+ref: 2112.14397v1
+time-added: 2022-03-20-08:47:28
+title: Dense-to-Sparse Gate for Mixture-of-Experts
+type: article
+url: http://arxiv.org/abs/2112.14397v1
+year: '2021'
