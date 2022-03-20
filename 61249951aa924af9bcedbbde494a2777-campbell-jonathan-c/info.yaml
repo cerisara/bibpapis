@@ -1,0 +1,33 @@
+abstract: Roguelike games generally feature exploration problems as a critical, yet
+  often repetitive element of gameplay. Automated approaches, however, face challenges
+  in terms of optimality, as well as due to incomplete information, such as from the
+  presence of secret doors. This paper presents an algorithmic approach to exploration
+  of roguelike dungeon environments. Our design aims to minimize exploration time,
+  balancing coverage and discovery of secret areas with resource cost. Our algorithm
+  is based on the concept of occupancy maps popular in robotics, adapted to encourage
+  efficient discovery of secret access points. Through extensive experimentation on
+  NetHack maps we show that this technique is significantly more efficient than simpler
+  greedy approaches and an existing automated player. We further investigate optimized
+  parameterization for the algorithm through a comprehensive data analysis. These
+  results point towards better automation for players as well as heuristics applicable
+  to fully automated gameplay.
+archiveprefix: arXiv
+author: Campbell, Jonathan C. and Verbrugge, Clark
+author_list:
+- family: Campbell
+  given: Jonathan C.
+- family: Verbrugge
+  given: Clark
+doi: 10.1109/TG.2018.2861759
+eprint: 1711.03087v2
+file: 1711.03087v2.pdf
+files:
+- tmpreokx0c5.pdf
+month: Nov
+primaryclass: cs.AI
+ref: 1711.03087v2
+time-added: 2022-03-20-11:48:19
+title: Exploration in NetHack With Secret Discovery
+type: article
+url: http://arxiv.org/abs/1711.03087v2
+year: '2017'
