@@ -1,0 +1,27 @@
+author: Zhang, Ansi and Li, Shaobo and Cui, Yuxin and Yang, Wanli and Dong, Rongzhi
+  and Hu, Jianjun
+author_list:
+- family: Zhang
+  given: Ansi
+- family: Li
+  given: Shaobo
+- family: Cui
+  given: Yuxin
+- family: Yang
+  given: Wanli
+- family: Dong
+  given: Rongzhi
+- family: Hu
+  given: Jianjun
+doi: 10.1109/ACCESS.2019.2934233
+files:
+- tt.bib
+journal: IEEE Access
+notes: notes.tex
+pages: 110895-110904
+ref: '8793060'
+time-added: 2022-03-20-13:31:20
+title: Limited Data Rolling Bearing Fault Diagnosis With Few-Shot Learning
+type: article
+volume: '7'
+year: '2019'
