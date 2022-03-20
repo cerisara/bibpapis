@@ -1,0 +1,38 @@
+abstract: A new modification of the Neural Additive Model (NAM) called SurvNAM and
+  its modifications are proposed to explain predictions of the black-box machine learning
+  survival model. The method is based on applying the original NAM to solving the
+  explanation problem in the framework of survival analysis. The basic idea behind
+  SurvNAM is to train the network by means of a specific expected loss function which
+  takes into account peculiarities of the survival model predictions and is based
+  on approximating the black-box model by the extension of the Cox proportional hazards
+  model which uses the well-known Generalized Additive Model (GAM) in place of the
+  simple linear relationship of covariates. The proposed method SurvNAM allows performing
+  the local and global explanation. A set of examples around the explained example
+  is randomly generated for the local explanation. The global explanation uses the
+  whole training dataset. The proposed modifications of SurvNAM are based on using
+  the Lasso-based regularization for functions from GAM and for a special representation
+  of the GAM functions using their weighted linear and non-linear parts, which is
+  implemented as a shortcut connection. A lot of numerical experiments illustrate
+  the SurvNAM efficiency.
+archiveprefix: arXiv
+author: Utkin, Lev V. and Satyukov, Egor D. and Konstantinov, Andrei V.
+author_list:
+- family: Utkin
+  given: Lev V.
+- family: Satyukov
+  given: Egor D.
+- family: Konstantinov
+  given: Andrei V.
+eprint: 2104.08903v1
+file: 2104.08903v1.pdf
+files:
+- tmpgazg9fp8.pdf
+month: Apr
+notes: notes.tex
+primaryclass: cs.LG
+ref: 2104.08903v1
+time-added: 2022-03-20-12:08:57
+title: 'SurvNAM: The machine learning survival model explanation'
+type: article
+url: http://arxiv.org/abs/2104.08903v1
+year: '2021'
