@@ -1,0 +1,28 @@
+abstract: We propose a mixture-of-experts approach for unsupervised domain adaptation
+  from multiple sources. The key idea is to explicitly capture the relationship between
+  a target example and different source domains. This relationship, expressed by a
+  point-to-set metric, determines how to combine predictors trained on various domains.
+  The metric is learned in an unsupervised fashion using meta-training. Experimental
+  results on sentiment analysis and part-of-speech tagging demonstrate that our approach
+  consistently outperforms multiple baselines and can robustly handle negative transfer.
+archiveprefix: arXiv
+author: Guo, Jiang and Shah, Darsh J and Barzilay, Regina
+author_list:
+- family: Guo
+  given: Jiang
+- family: Shah
+  given: Darsh J
+- family: Barzilay
+  given: Regina
+eprint: 1809.02256v2
+file: 1809.02256v2.pdf
+files:
+- tmp8kj4optc.pdf
+month: Sep
+primaryclass: cs.CL
+ref: 1809.02256v2
+time-added: 2022-03-21-15:00:08
+title: Multi-Source Domain Adaptation with Mixture of Experts
+type: article
+url: http://arxiv.org/abs/1809.02256v2
+year: '2018'
