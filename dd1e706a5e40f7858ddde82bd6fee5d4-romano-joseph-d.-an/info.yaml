@@ -1,0 +1,37 @@
+abstract: Automated machine learning (AutoML) and deep learning (DL) are two cutting-edge
+  paradigms used to solve a myriad of inductive learning tasks. In spite of their
+  successes, little guidance exists for when to choose one approach over the other
+  in the context of specific real-world problems. Furthermore, relatively few tools
+  exist that allow the integration of both AutoML and DL in the same analysis to yield
+  results combining both of their strengths. Here, we seek to address both of these
+  issues, by (1.) providing a head-to-head comparison of AutoML and DL in the context
+  of binary classification on 6 well-characterized public datasets, and (2.) evaluating
+  a new tool for genetic programming-based AutoML that incorporates deep estimators.
+  Our observations suggest that AutoML outperforms simple DL classifiers when trained
+  on similar datasets for binary classification but integrating DL into AutoML improves
+  classification performance even further. However, the substantial time needed to
+  train AutoML+DL pipelines will likely outweigh performance advantages in many applications.
+archiveprefix: arXiv
+author: Romano, Joseph D. and Le, Trang T. and Fu, Weixuan and Moore, Jason H.
+author_list:
+- family: Romano
+  given: Joseph D.
+- family: Le
+  given: Trang T.
+- family: Fu
+  given: Weixuan
+- family: Moore
+  given: Jason H.
+doi: 10.1007/s10710-021-09401-z
+eprint: 2006.06730v1
+file: 2006.06730v1.pdf
+files:
+- tmplh5q-zbx.pdf
+month: Jun
+primaryclass: cs.LG
+ref: 2006.06730v1
+time-added: 2022-03-23-09:40:37
+title: Is deep learning necessary for simple classification tasks?
+type: article
+url: http://arxiv.org/abs/2006.06730v1
+year: '2020'
