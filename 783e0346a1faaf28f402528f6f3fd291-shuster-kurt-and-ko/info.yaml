@@ -1,0 +1,42 @@
+abstract: 'Language models (LMs) have recently been shown to generate more factual
+  responses by employing modularity (Zhou et al., 2021) in combination with retrieval
+  (Adolphs et al., 2021). We extend the recent approach of Adolphs et al. (2021) to
+  include internet search as a module. Our SeeKeR (Search engine->Knowledge->Response)
+  method thus applies a single LM to three modular tasks in succession: search, generating
+  knowledge, and generating a final response. We show that, when using SeeKeR as a
+  dialogue model, it outperforms the state-of-the-art model BlenderBot 2 (Chen et
+  al., 2021) on open-domain knowledge-grounded conversations for the same number of
+  parameters, in terms of consistency, knowledge and per-turn engagingness. SeeKeR
+  applied to topical prompt completions as a standard language model outperforms GPT2
+  (Radford et al., 2019) and GPT3 (Brown et al., 2020) in terms of factuality and
+  topicality, despite GPT3 being a vastly larger model. Our code and models are made
+  publicly available.'
+archiveprefix: arXiv
+author: Shuster, Kurt and Komeili, Mojtaba and Adolphs, Leonard and Roller, Stephen
+  and Szlam, Arthur and Weston, Jason
+author_list:
+- family: Shuster
+  given: Kurt
+- family: Komeili
+  given: Mojtaba
+- family: Adolphs
+  given: Leonard
+- family: Roller
+  given: Stephen
+- family: Szlam
+  given: Arthur
+- family: Weston
+  given: Jason
+eprint: 2203.13224v1
+file: 2203.13224v1.pdf
+files:
+- tmp56kb4vm6.pdf
+month: Mar
+primaryclass: cs.CL
+ref: 2203.13224v1
+time-added: 2022-03-26-08:52:43
+title: 'Language Models that Seek for Knowledge: Modular Search & Generation for   Dialogue
+  and Prompt Completion'
+type: article
+url: http://arxiv.org/abs/2203.13224v1
+year: '2022'
