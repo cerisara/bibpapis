@@ -1,0 +1,16 @@
+@InProceedings{pmlr-v139-liu21aa,
+  title = 	 {Lottery Ticket Preserves Weight Correlation: Is It Desirable or Not?},
+  author =       {Liu, Ning and Yuan, Geng and Che, Zhengping and Shen, Xuan and Ma, Xiaolong and Jin, Qing and Ren, Jian and Tang, Jian and Liu, Sijia and Wang, Yanzhi},
+  booktitle = 	 {Proceedings of the 38th International Conference on Machine Learning},
+  pages = 	 {7011--7020},
+  year = 	 {2021},
+  editor = 	 {Meila, Marina and Zhang, Tong},
+  volume = 	 {139},
+  series = 	 {Proceedings of Machine Learning Research},
+  month = 	 {18--24 Jul},
+  publisher =    {PMLR},
+  pdf = 	 {http://proceedings.mlr.press/v139/liu21aa/liu21aa.pdf},
+  url = 	 {https://proceedings.mlr.press/v139/liu21aa.html},
+  abstract = 	 {In deep model compression, the recent finding "Lottery Ticket Hypothesis" (LTH) pointed out that there could exist a winning ticket (i.e., a properly pruned sub-network together with original weight initialization) that can achieve competitive performance than the original dense network. However, it is not easy to observe such winning property in many scenarios, where for example, a relatively large learning rate is used even if it benefits training the original dense model. In this work, we investigate the underlying condition and rationale behind the winning property, and find that the underlying reason is largely attributed to the correlation between initialized weights and final-trained weights when the learning rate is not sufficiently large. Thus, the existence of winning property is correlated with an insufficient DNN pretraining, and is unlikely to occur for a well-trained DNN. To overcome this limitation, we propose the "pruning &amp; fine-tuning" method that consistently outperforms lottery ticket sparse training under the same pruning algorithm and the same total training epochs. Extensive experiments over multiple deep models (VGG, ResNet, MobileNet-v2) on different datasets have been conducted to justify our proposals.}
+}
+

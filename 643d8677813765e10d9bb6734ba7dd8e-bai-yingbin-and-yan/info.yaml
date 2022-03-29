@@ -1,0 +1,51 @@
+abstract: The memorization effect of deep neural network (DNN) plays a pivotal role
+  in many state-of-the-art label-noise learning methods. To exploit this property,
+  the early stopping trick, which stops the optimization at the early stage of training,
+  is usually adopted. Current methods generally decide the early stopping point by
+  considering a DNN as a whole. However, a DNN can be considered as a composition
+  of a series of layers, and we find that the latter layers in a DNN are much more
+  sensitive to label noise, while their former counterparts are quite robust. Therefore,
+  selecting a stopping point for the whole network may make different DNN layers antagonistically
+  affected each other, thus degrading the final performance. In this paper, we propose
+  to separate a DNN into different parts and progressively train them to address this
+  problem. Instead of the early stopping, which trains a whole DNN all at once, we
+  initially train former DNN layers by optimizing the DNN with a relatively large
+  number of epochs. During training, we progressively train the latter DNN layers
+  by using a smaller number of epochs with the preceding layers fixed to counteract
+  the impact of noisy labels. We term the proposed method as progressive early stopping
+  (PES). Despite its simplicity, compared with the early stopping, PES can help to
+  obtain more promising and stable results. Furthermore, by combining PES with existing
+  approaches on noisy label training, we achieve state-of-the-art performance on image
+  classification benchmarks.
+archiveprefix: arXiv
+author: Bai, Yingbin and Yang, Erkun and Han, Bo and Yang, Yanhua and Li, Jiatong
+  and Mao, Yinian and Niu, Gang and Liu, Tongliang
+author_list:
+- family: Bai
+  given: Yingbin
+- family: Yang
+  given: Erkun
+- family: Han
+  given: Bo
+- family: Yang
+  given: Yanhua
+- family: Li
+  given: Jiatong
+- family: Mao
+  given: Yinian
+- family: Niu
+  given: Gang
+- family: Liu
+  given: Tongliang
+eprint: 2106.15853v2
+file: 2106.15853v2.pdf
+files:
+- tmpb1khi2m1.pdf
+month: Jun
+primaryclass: cs.LG
+ref: 2106.15853v2
+time-added: 2022-03-29-15:18:16
+title: Understanding and Improving Early Stopping for Learning with Noisy   Labels
+type: article
+url: http://arxiv.org/abs/2106.15853v2
+year: '2021'

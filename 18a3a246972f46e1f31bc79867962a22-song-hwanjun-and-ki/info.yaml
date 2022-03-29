@@ -1,0 +1,18 @@
+author: Song, Hwanjun and Kim, Minseok and Park, Dongmin and Lee, Jae-Gil
+author_list:
+- family: Song
+  given: Hwanjun
+- family: Kim
+  given: Minseok
+- family: Park
+  given: Dongmin
+- family: Lee
+  given: Jae-Gil
+files:
+- tt.data
+ref: song2020prestopping
+time-added: 2022-03-29-15:17:24
+title: 'Prestopping: How Does Early Stopping Help Generalization Against Label Noise?'
+type: misc
+url: https://openreview.net/forum?id=BklSwn4tDH
+year: '2020'

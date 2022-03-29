@@ -1,0 +1,42 @@
+abstract: Training deep neural networks (DNNs) with noisy labels is a challenging
+  problem due to over-parameterization. DNNs tend to essentially fit on clean samples
+  at a higher rate in the initial stages, and later fit on the noisy samples at a
+  relatively lower rate. Thus, with a noisy dataset, the test accuracy increases initially
+  and drops in the later stages. To find an early stopping point at the maximum obtainable
+  test accuracy (MOTA), recent studies assume either that i) a clean validation set
+  is available or ii) the noise ratio is known, or, both. However, often a clean validation
+  set is unavailable, and the noise estimation can be inaccurate. To overcome these
+  issues, we provide a novel training solution, free of these conditions. We analyze
+  the rate of change of the training accuracy for different noise ratios under different
+  conditions to identify a training stop region. We further develop a heuristic algorithm
+  based on a small-learning assumption to find a training stop point (TSP) at or close
+  to MOTA. To the best of our knowledge, our method is the first to rely solely on
+  the \textit{training behavior}, while utilizing the entire training set, to automatically
+  find a TSP. We validated the robustness of our algorithm (AutoTSP) through several
+  experiments on CIFAR-10, CIFAR-100, and a real-world noisy dataset for different
+  noise ratios, noise types, and architectures.
+archiveprefix: arXiv
+author: Kamabattula, Sree Ram and Devarajan, Venkat and Namazi, Babak and Sankaranarayanan,
+  Ganesh
+author_list:
+- family: Kamabattula
+  given: Sree Ram
+- family: Devarajan
+  given: Venkat
+- family: Namazi
+  given: Babak
+- family: Sankaranarayanan
+  given: Ganesh
+doi: 10.1109/CSCI51800.2020.00084
+eprint: 2012.13435v2
+file: 2012.13435v2.pdf
+files:
+- tmpm30s1yoc.pdf
+month: Dec
+primaryclass: cs.LG
+ref: 2012.13435v2
+time-added: 2022-03-29-15:11:47
+title: Identifying Training Stop Point with Noisy Labeled Data
+type: article
+url: http://arxiv.org/abs/2012.13435v2
+year: '2020'
