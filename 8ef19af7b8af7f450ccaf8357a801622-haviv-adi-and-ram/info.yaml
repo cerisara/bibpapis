@@ -1,0 +1,35 @@
+abstract: Transformers typically require some form of positional encoding, such as
+  positional embeddings, to process natural language sequences. Surprisingly, we find
+  that transformer language models without any explicit positional encoding are still
+  competitive with standard models, and that this phenomenon is robust across different
+  datasets, model sizes, and sequence lengths. Probing experiments reveal that such
+  models acquire an implicit notion of absolute positions throughout the network,
+  effectively compensating for the missing information. We conjecture that causal
+  attention enables the model to infer the number of predecessors that each token
+  can attend to, thereby approximating its absolute position.
+archiveprefix: arXiv
+author: Haviv, Adi and Ram, Ori and Press, Ofir and Izsak, Peter and Levy, Omer
+author_list:
+- family: Haviv
+  given: Adi
+- family: Ram
+  given: Ori
+- family: Press
+  given: Ofir
+- family: Izsak
+  given: Peter
+- family: Levy
+  given: Omer
+eprint: 2203.16634v1
+file: 2203.16634v1.pdf
+files:
+- tmp8d39-vp2.pdf
+month: Mar
+primaryclass: cs.CL
+ref: 2203.16634v1
+time-added: 2022-04-01-19:44:17
+title: Transformer Language Models without Positional Encodings Still Learn   Positional
+  Information
+type: article
+url: http://arxiv.org/abs/2203.16634v1
+year: '2022'
