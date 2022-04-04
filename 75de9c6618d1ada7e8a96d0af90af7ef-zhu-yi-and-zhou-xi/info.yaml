@@ -1,0 +1,47 @@
+abstract: In the short text, the extremely short length, feature sparsity, and high
+  ambiguity pose huge challenges to classification tasks. Recently, as an effective
+  method for tuning Pre-trained Language Models for specific downstream tasks, prompt-learning
+  has attracted a vast amount of attention and research. The main intuition behind
+  the prompt-learning is to insert the template into the input and convert the text
+  classification tasks into equivalent cloze-style tasks. However, most prompt-learning
+  methods expand label words manually or only consider the class name for knowledge
+  incorporating in cloze-style prediction, which will inevitably incur omissions and
+  bias in short text classification tasks. In this paper, we propose a simple short
+  text classification approach that makes use of prompt-learning based on knowledgeable
+  expansion. Taking the special characteristics of short text into consideration,
+  the method can consider both the short text itself and class name during expanding
+  label words space. Specifically, the top $N$ concepts related to the entity in the
+  short text are retrieved from the open Knowledge Graph like Probase, and we further
+  refine the expanded label words by the distance calculation between selected concepts
+  and class labels. Experimental results show that our approach obtains obvious improvement
+  compared with other fine-tuning, prompt-learning, and knowledgeable prompt-tuning
+  methods, outperforming the state-of-the-art by up to 6 Accuracy points on three
+  well-known datasets.
+archiveprefix: arXiv
+author: Zhu, Yi and Zhou, Xinke and Qiang, Jipeng and Li, Yun and Yuan, Yunhao and
+  Wu, Xindong
+author_list:
+- family: Zhu
+  given: Yi
+- family: Zhou
+  given: Xinke
+- family: Qiang
+  given: Jipeng
+- family: Li
+  given: Yun
+- family: Yuan
+  given: Yunhao
+- family: Wu
+  given: Xindong
+eprint: 2202.11345v2
+file: 2202.11345v2.pdf
+files:
+- tmpad07h-lb.pdf
+month: Feb
+primaryclass: cs.CL
+ref: 2202.11345v2
+time-added: 2022-04-04-08:46:00
+title: Prompt-Learning for Short Text Classification
+type: article
+url: http://arxiv.org/abs/2202.11345v2
+year: '2022'
