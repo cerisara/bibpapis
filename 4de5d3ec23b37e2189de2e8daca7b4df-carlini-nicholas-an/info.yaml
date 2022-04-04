@@ -1,0 +1,42 @@
+abstract: This paper describes a testing methodology for quantitatively assessing
+  the risk that rare or unique training-data sequences are unintentionally memorized
+  by generative sequence models--a common type of machine-learning model. Because
+  such models are sometimes trained on sensitive data (e.g., the text of users' private
+  messages), this methodology can benefit privacy by allowing deep-learning practitioners
+  to select means of training that minimize such memorization.In experiments, we show
+  that unintended memorization is a persistent, hard-to-avoid issue that can have
+  serious consequences. Specifically, for models trained without consideration of
+  memorization, we describe new, efficient procedures that can extract unique, secret
+  sequences, such as credit card numbers. We show that our testing strategy is a practical
+  and easy-to-use first line of defense, e.g., by describing its application to quantitatively
+  limit data exposure in Google's Smart Compose, a commercial text-completion neural
+  network trained on millions of users' email messages.
+address: USA
+author: Carlini, Nicholas and Liu, Chang and Erlingsson, \'{U}lfar and Kos, Jernej
+  and Song, Dawn
+author_list:
+- family: Carlini
+  given: Nicholas
+- family: Liu
+  given: Chang
+- family: Erlingsson
+  given: \'{U}lfar
+- family: Kos
+  given: Jernej
+- family: Song
+  given: Dawn
+booktitle: Proceedings of the 28th USENIX Conference on Security Symposium
+files:
+- tt.bib
+isbn: '9781939133069'
+location: Santa Clara, CA, USA
+numpages: '18'
+pages: 267–284
+publisher: USENIX Association
+ref: 10.5555/3361338.3361358
+series: SEC'19
+time-added: 2022-04-04-09:32:19
+title: 'The Secret Sharer: Evaluating and Testing Unintended Memorization in Neural
+  Networks'
+type: inproceedings
+year: '2019'
