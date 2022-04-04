@@ -1,0 +1,21 @@
+author: Bonet, David and Ortega, Antonio and Ruiz-Hidalgo, Javier and Shekkizhar,
+  Sarath
+author_list:
+- family: Bonet
+  given: David
+- family: Ortega
+  given: Antonio
+- family: Ruiz-Hidalgo
+  given: Javier
+- family: Shekkizhar
+  given: Sarath
+files:
+- tt.bib
+journal: 2021 Asia-Pacific Signal and Information Processing Association Annual Summit
+  and Conference (APSIPA ASC)
+pages: 351-358
+ref: Bonet2021ChannelWiseES
+time-added: 2022-04-04-09:45:58
+title: Channel-Wise Early Stopping without a Validation Set via NNK Polytope Interpolation
+type: article
+year: '2021'
