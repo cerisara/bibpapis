@@ -1,0 +1,18 @@
+address: New York, NY, USA
+author: Feldman, Vitaly
+author_list:
+- family: Feldman
+  given: Vitaly
+booktitle: Proceedings of the 52nd Annual ACM SIGACT Symposium on Theory of Computing
+files:
+- acm-3357713.3384290.bib
+isbn: '9781450369794'
+numpages: '6'
+pages: 954–959
+publisher: Association for Computing Machinery
+ref: 10.1145/3357713.3384290
+time-added: 2022-04-04-09:38:29
+title: Does Learning Require Memorization? A Short Tale about a Long Tail
+type: inbook
+url: https://doi.org/10.1145/3357713.3384290
+year: '2020'
