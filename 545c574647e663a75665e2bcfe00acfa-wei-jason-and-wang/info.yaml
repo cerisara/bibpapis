@@ -1,0 +1,38 @@
+abstract: Although scaling up language model size has reliably improved performance
+  on a range of NLP tasks, even the largest models currently struggle with certain
+  reasoning tasks such as math word problems, symbolic manipulation, and commonsense
+  reasoning. This paper explores the ability of language models to generate a coherent
+  chain of thought -- a series of short sentences that mimic the reasoning process
+  a person might have when responding to a question. Experiments show that inducing
+  a chain of thought via prompting can enable sufficiently large language models to
+  better perform reasoning tasks that otherwise have flat scaling curves.
+archiveprefix: arXiv
+author: Wei, Jason and Wang, Xuezhi and Schuurmans, Dale and Bosma, Maarten and Chi,
+  Ed and Le, Quoc and Zhou, Denny
+author_list:
+- family: Wei
+  given: Jason
+- family: Wang
+  given: Xuezhi
+- family: Schuurmans
+  given: Dale
+- family: Bosma
+  given: Maarten
+- family: Chi
+  given: Ed
+- family: Le
+  given: Quoc
+- family: Zhou
+  given: Denny
+eprint: 2201.11903v1
+file: 2201.11903v1.pdf
+files:
+- tmpfzzalcyc.pdf
+month: Jan
+primaryclass: cs.CL
+ref: 2201.11903v1
+time-added: 2022-04-06-08:09:46
+title: Chain of Thought Prompting Elicits Reasoning in Large Language Models
+type: article
+url: http://arxiv.org/abs/2201.11903v1
+year: '2022'
