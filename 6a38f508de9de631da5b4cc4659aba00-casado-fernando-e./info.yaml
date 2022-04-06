@@ -1,0 +1,47 @@
+abstract: Today we live in a context in which devices are increasingly interconnected
+  and sensorized and are almost ubiquitous. Deep learning has become in recent years
+  a popular way to extract knowledge from the huge amount of data that these devices
+  are able to collect. Nevertheless, centralized state-of-the-art learning methods
+  have a number of drawbacks when facing real distributed problems, in which the available
+  information is usually private, partial, biased and evolving over time. Federated
+  learning is a popular framework that allows multiple distributed devices to train
+  models remotely, collaboratively, and preserving data privacy. However, the current
+  proposals in federated learning focus on deep architectures that in many cases are
+  not feasible to implement in non-dedicated devices such as smartphones. Also, little
+  research has been done regarding the scenario where data distribution changes over
+  time in unforeseen ways, causing what is known as concept drift. Therefore, in this
+  work we want to present Light Federated and Continual Consensus (LFedCon2), a new
+  federated and continual architecture that uses light, traditional learners. Our
+  method allows powerless devices (such as smartphones or robots) to learn in real
+  time, locally, continuously, autonomously and from users, but also improving models
+  globally, in the cloud, combining what is learned locally, in the devices. In order
+  to test our proposal, we have applied it in a heterogeneous community of smartphone
+  users to solve the problem of walking recognition. The results show the advantages
+  that LFedCon2 provides with respect to other state-of-the-art methods.
+archiveprefix: arXiv
+author: Casado, Fernando E. and Lema, Dylan and Iglesias, Roberto and Regueiro, Carlos
+  V. and Barro, Senén
+author_list:
+- family: Casado
+  given: Fernando E.
+- family: Lema
+  given: Dylan
+- family: Iglesias
+  given: Roberto
+- family: Regueiro
+  given: Carlos V.
+- family: Barro
+  given: Senén
+eprint: 2006.07129v2
+file: 2006.07129v2.pdf
+files:
+- tmpl04vbbaq.pdf
+month: Jun
+primaryclass: cs.LG
+ref: 2006.07129v2
+time-added: 2022-04-06-12:12:33
+title: Federated and continual learning for classification tasks in a society   of
+  devices
+type: article
+url: http://arxiv.org/abs/2006.07129v2
+year: '2020'
