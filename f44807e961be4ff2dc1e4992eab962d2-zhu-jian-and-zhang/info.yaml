@@ -1,0 +1,33 @@
+abstract: 'In this study, we tackle massively multilingual grapheme-to-phoneme conversion
+  through implementing G2P models based on ByT5. We have curated a G2P dataset from
+  various sources that covers around 100 languages and trained large-scale multilingual
+  G2P models based on ByT5. We found that ByT5 operating on byte-level inputs significantly
+  outperformed the token-based mT5 model in terms of multilingual G2P. Pairwise comparison
+  with monolingual models in these languages suggests that multilingual ByT5 models
+  generally lower the phone error rate by jointly learning from a variety of languages.
+  The pretrained model can further benefit low resource G2P through zero-shot prediction
+  on unseen languages or provides pretrained weights for finetuning, which helps the
+  model converge to a lower phone error rate than randomly initialized weights. To
+  facilitate future research on multilingual G2P, we make available our code and pretrained
+  multilingual G2P models at: https://github.com/lingjzhu/CharsiuG2P.'
+archiveprefix: arXiv
+author: Zhu, Jian and Zhang, Cong and Jurgens, David
+author_list:
+- family: Zhu
+  given: Jian
+- family: Zhang
+  given: Cong
+- family: Jurgens
+  given: David
+eprint: 2204.03067v1
+file: 2204.03067v1.pdf
+files:
+- tmpvmqx2okr.pdf
+month: Apr
+primaryclass: cs.CL
+ref: 2204.03067v1
+time-added: 2022-04-08-08:43:36
+title: ByT5 model for massively multilingual grapheme-to-phoneme conversion
+type: article
+url: http://arxiv.org/abs/2204.03067v1
+year: '2022'
