@@ -1,0 +1,35 @@
+abstract: Image narrative generation is a task to create a story from an image with
+  a subjective viewpoint. Given the importance of the subjective feelings of writers,
+  readers, and characters in storytelling, an image narrative generation method should
+  consider human emotion. In this study, we propose a novel method of image narrative
+  generation called ViNTER (Visual Narrative Transformer with Emotion arc Representation),
+  which takes "emotion arc" as input to capture a sequence of emotional changes. Since
+  emotion arcs represent the trajectory of emotional change, it is expected that we
+  can include detailed information about the emotional changes in the story to the
+  model. We present experimental results of both automatic and manual evaluations
+  on the Image Narrative dataset and demonstrate the effectiveness of the proposed
+  approach.
+archiveprefix: arXiv
+author: Uehara, Kohei and Mori, Yusuke and Mukuta, Yusuke and Harada, Tatsuya
+author_list:
+- family: Uehara
+  given: Kohei
+- family: Mori
+  given: Yusuke
+- family: Mukuta
+  given: Yusuke
+- family: Harada
+  given: Tatsuya
+doi: 10.1145/3487553.3524649
+eprint: 2202.07305v2
+file: 2202.07305v2.pdf
+files:
+- tmp1zu5c6bs.pdf
+month: Feb
+primaryclass: cs.CV
+ref: 2202.07305v2
+time-added: 2022-04-09-11:09:23
+title: 'ViNTER: Image Narrative Generation with Emotion-Arc-Aware Transformer'
+type: article
+url: http://arxiv.org/abs/2202.07305v2
+year: '2022'
