@@ -1,0 +1,41 @@
+abstract: The recent "Text-to-Text Transfer Transformer" (T5) leveraged a unified
+  text-to-text format and scale to attain state-of-the-art results on a wide variety
+  of English-language NLP tasks. In this paper, we introduce mT5, a multilingual variant
+  of T5 that was pre-trained on a new Common Crawl-based dataset covering 101 languages.
+  We detail the design and modified training of mT5 and demonstrate its state-of-the-art
+  performance on many multilingual benchmarks. We also describe a simple technique
+  to prevent "accidental translation" in the zero-shot setting, where a generative
+  model chooses to (partially) translate its prediction into the wrong language. All
+  of the code and model checkpoints used in this work are publicly available.
+archiveprefix: arXiv
+author: Xue, Linting and Constant, Noah and Roberts, Adam and Kale, Mihir and Al-Rfou,
+  Rami and Siddhant, Aditya and Barua, Aditya and Raffel, Colin
+author_list:
+- family: Xue
+  given: Linting
+- family: Constant
+  given: Noah
+- family: Roberts
+  given: Adam
+- family: Kale
+  given: Mihir
+- family: Al-Rfou
+  given: Rami
+- family: Siddhant
+  given: Aditya
+- family: Barua
+  given: Aditya
+- family: Raffel
+  given: Colin
+eprint: 2010.11934v3
+file: 2010.11934v3.pdf
+files:
+- tmpu7516k6b.pdf
+month: Oct
+primaryclass: cs.CL
+ref: 2010.11934v3
+time-added: 2022-04-13-09:14:48
+title: 'mT5: A massively multilingual pre-trained text-to-text transformer'
+type: article
+url: http://arxiv.org/abs/2010.11934v3
+year: '2020'
