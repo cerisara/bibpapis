@@ -1,0 +1,43 @@
+abstract: 'Self-supervised learning algorithms, including BERT and SimCLR, have enabled
+  significant strides in fields like natural language processing, computer vision,
+  and speech processing. However, these algorithms are domain-specific, meaning that
+  new self-supervised learning algorithms must be developed for each new setting,
+  including myriad healthcare, scientific, and multimodal domains. To catalyze progress
+  toward domain-agnostic methods, we introduce DABS: a Domain-Agnostic Benchmark for
+  Self-supervised learning. To perform well on DABS, an algorithm is evaluated on
+  seven diverse domains: natural images, multichannel sensor data, English text, speech
+  recordings, multilingual text, chest x-rays, and images with text descriptions.
+  Each domain contains an unlabeled dataset for pretraining; the model is then is
+  scored based on its downstream performance on a set of labeled tasks in the domain.
+  We also present e-Mix and ShED: two baseline domain-agnostic algorithms; their relatively
+  modest performance demonstrates that significant progress is needed before self-supervised
+  learning is an out-of-the-box solution for arbitrary domains. Code for benchmark
+  datasets and baseline algorithms is available at https://github.com/alextamkin/dabs.'
+archiveprefix: arXiv
+author: Tamkin, Alex and Liu, Vincent and Lu, Rongfei and Fein, Daniel and Schultz,
+  Colin and Goodman, Noah
+author_list:
+- family: Tamkin
+  given: Alex
+- family: Liu
+  given: Vincent
+- family: Lu
+  given: Rongfei
+- family: Fein
+  given: Daniel
+- family: Schultz
+  given: Colin
+- family: Goodman
+  given: Noah
+eprint: 2111.12062v1
+file: 2111.12062v1.pdf
+files:
+- tmp53-s4i7z.pdf
+month: Nov
+primaryclass: cs.LG
+ref: 2111.12062v1
+time-added: 2022-04-20-09:13:29
+title: 'DABS: A Domain-Agnostic Benchmark for Self-Supervised Learning'
+type: article
+url: http://arxiv.org/abs/2111.12062v1
+year: '2021'
