@@ -1,0 +1,27 @@
+author: Xiao, Shuai and Yan, Junchi and Li, Changsheng and Jin, Bo and Wang, Xiangfeng
+  and Yang, Xiaokang and Chu, Stephen M. and Zha, Hongyuan
+author_list:
+- family: Xiao
+  given: Shuai
+- family: Yan
+  given: Junchi
+- family: Li
+  given: Changsheng
+- family: Jin
+  given: Bo
+- family: Wang
+  given: Xiangfeng
+- family: Yang
+  given: Xiaokang
+- family: Chu
+  given: Stephen M.
+- family: Zha
+  given: Hongyuan
+booktitle: IJCAI
+files:
+- tt.data
+ref: Xiao2016OnMA
+time-added: 2022-04-24-12:20:09
+title: On Modeling and Predicting Individual Paper Citation Count over Time
+type: inproceedings
+year: '2016'
