@@ -1,0 +1,25 @@
+author: Levine, Yoav and Wies, Noam and Jannai, Daniel and Navon, Dan and Hoshen,
+  Yedid and Shashua, Amnon
+author_list:
+- family: Levine
+  given: Yoav
+- family: Wies
+  given: Noam
+- family: Jannai
+  given: Daniel
+- family: Navon
+  given: Dan
+- family: Hoshen
+  given: Yedid
+- family: Shashua
+  given: Amnon
+booktitle: International Conference on Learning Representations
+files:
+- tt.data
+ref: levine2022the
+time-added: 2022-04-25-16:29:59
+title: 'The Inductive Bias of In-Context Learning: Rethinking Pretraining Example
+  Design'
+type: inproceedings
+url: https://openreview.net/forum?id=lnEaqbTJIRz
+year: '2022'
