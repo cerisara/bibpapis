@@ -1,0 +1,33 @@
+abstract: Federated learning holds great promise in learning from fragmented sensitive
+  data and has revolutionized how machine learning models are trained. This article
+  provides a systematic overview and detailed taxonomy of federated learning. We investigate
+  the existing security challenges in federated learning and provide a comprehensive
+  overview of established defense techniques for data poisoning, inference attacks,
+  and model poisoning attacks. The work also presents an overview of current training
+  challenges for federated learning, focusing on handling non-i.i.d. data, high dimensionality
+  issues, and heterogeneous architecture, and discusses several solutions for the
+  associated challenges. Finally, we discuss the remaining challenges in managing
+  federated learning training and suggest focused research directions to address the
+  open questions. Potential candidate areas for federated learning, including IoT
+  ecosystem, healthcare applications, are discussed with a particular focus on banking
+  and financial domains.
+archiveprefix: arXiv
+author: Mathews, Sherin Mary and Assefa, Samuel A.
+author_list:
+- family: Mathews
+  given: Sherin Mary
+- family: Assefa
+  given: Samuel A.
+eprint: 2204.13697v1
+file: 2204.13697v1.pdf
+files:
+- tmpxin2n1jm.pdf
+month: Apr
+primaryclass: cs.LG
+ref: 2204.13697v1
+time-added: 2022-05-02-14:09:37
+title: 'Federated Learning: Balancing the Thin Line Between Data Intelligence   and
+  Privacy'
+type: article
+url: http://arxiv.org/abs/2204.13697v1
+year: '2022'
