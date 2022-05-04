@@ -1,0 +1,49 @@
+abstract: Transformers have achieved superior performances in many tasks in natural
+  language processing and computer vision, which also intrigues great interests in
+  the time series community. Among multiple advantages of transformers, the ability
+  to capture long-range dependencies and interactions is especially attractive for
+  time series modeling, leading to exciting progress in various time series applications.
+  In this paper, we systematically review transformer schemes for time series modeling
+  by highlighting their strengths as well as limitations through a new taxonomy to
+  summarize existing time series transformers in two perspectives. From the perspective
+  of network modifications, we summarize the adaptations of module level and architecture
+  level of the time series transformers. From the perspective of applications, we
+  categorize time series transformers based on common tasks including forecasting,
+  anomaly detection, and classification. Empirically, we perform robust analysis,
+  model size analysis, and seasonal-trend decomposition analysis to study how Transformers
+  perform in time series. Finally, we discuss and suggest future directions to provide
+  useful research guidance. A corresponding resource list that will be continuously
+  updated can be found in the GitHub repository. To the best of our knowledge, this
+  paper is the first work to comprehensively and systematically summarize the recent
+  advances of Transformers for modeling time series data. We hope this survey will
+  ignite further research interests in time series Transformers.
+archiveprefix: arXiv
+author: Wen, Qingsong and Zhou, Tian and Zhang, Chaoli and Chen, Weiqi and Ma, Ziqing
+  and Yan, Junchi and Sun, Liang
+author_list:
+- family: Wen
+  given: Qingsong
+- family: Zhou
+  given: Tian
+- family: Zhang
+  given: Chaoli
+- family: Chen
+  given: Weiqi
+- family: Ma
+  given: Ziqing
+- family: Yan
+  given: Junchi
+- family: Sun
+  given: Liang
+eprint: 2202.07125v3
+file: 2202.07125v3.pdf
+files:
+- tmpc03998ev.pdf
+month: Feb
+primaryclass: cs.LG
+ref: 2202.07125v3
+time-added: 2022-05-04-07:14:28
+title: 'Transformers in Time Series: A Survey'
+type: article
+url: http://arxiv.org/abs/2202.07125v3
+year: '2022'

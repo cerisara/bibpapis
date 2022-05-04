@@ -1,0 +1,38 @@
+abstract: Transformer architecture has widespread applications, particularly in Natural
+  Language Processing and computer vision. Recently Transformers have been employed
+  in various aspects of time-series analysis. This tutorial provides an overview of
+  the Transformer architecture, its applications, and a collection of examples from
+  recent research papers in time-series analysis. We delve into an explanation of
+  the core components of the Transformer, including the self-attention mechanism,
+  positional encoding, multi-head, and encoder/decoder. Several enhancements to the
+  initial, Transformer architecture are highlighted to tackle time-series tasks. The
+  tutorial also provides best practices and techniques to overcome the challenge of
+  effectively training Transformers for time-series analysis.
+archiveprefix: arXiv
+author: Ahmed, Sabeen and Nielsen, Ian E. and Tripathi, Aakash and Siddiqui, Shamoon
+  and Rasool, Ghulam and Ramachandran, Ravi P.
+author_list:
+- family: Ahmed
+  given: Sabeen
+- family: Nielsen
+  given: Ian E.
+- family: Tripathi
+  given: Aakash
+- family: Siddiqui
+  given: Shamoon
+- family: Rasool
+  given: Ghulam
+- family: Ramachandran
+  given: Ravi P.
+eprint: 2205.01138v1
+file: 2205.01138v1.pdf
+files:
+- tmp6ph10pug.pdf
+month: Apr
+primaryclass: cs.LG
+ref: 2205.01138v1
+time-added: 2022-05-04-07:19:01
+title: 'Transformers in Time-series Analysis: A Tutorial'
+type: article
+url: http://arxiv.org/abs/2205.01138v1
+year: '2022'
