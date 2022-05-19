@@ -1,0 +1,37 @@
+abstract: We propose a novel deep network architecture for lifelong learning which
+  we refer to as Dynamically Expandable Network (DEN), that can dynamically decide
+  its network capacity as it trains on a sequence of tasks, to learn a compact overlapping
+  knowledge sharing structure among tasks. DEN is efficiently trained in an online
+  manner by performing selective retraining, dynamically expands network capacity
+  upon arrival of each task with only the necessary number of units, and effectively
+  prevents semantic drift by splitting/duplicating units and timestamping them. We
+  validate DEN on multiple public datasets under lifelong learning scenarios, on which
+  it not only significantly outperforms existing lifelong learning methods for deep
+  networks, but also achieves the same level of performance as the batch counterparts
+  with substantially fewer number of parameters. Further, the obtained network fine-tuned
+  on all tasks obtained significantly better performance over the batch models, which
+  shows that it can be used to estimate the optimal network structure even when all
+  tasks are available in the first place.
+archiveprefix: arXiv
+author: Yoon, Jaehong and Yang, Eunho and Lee, Jeongtae and Hwang, Sung Ju
+author_list:
+- family: Yoon
+  given: Jaehong
+- family: Yang
+  given: Eunho
+- family: Lee
+  given: Jeongtae
+- family: Hwang
+  given: Sung Ju
+eprint: 1708.01547v11
+file: 1708.01547v11.pdf
+files:
+- tmpjlo2vs1g.pdf
+month: Aug
+primaryclass: cs.LG
+ref: 1708.01547v11
+time-added: 2022-05-19-10:57:45
+title: Lifelong Learning with Dynamically Expandable Networks
+type: article
+url: http://arxiv.org/abs/1708.01547v11
+year: '2017'
