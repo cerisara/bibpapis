@@ -1,0 +1,20 @@
+author: Li, Xuechen and Tramer, Florian and Liang, Percy and Hashimoto, Tatsunori
+author_list:
+- family: Li
+  given: Xuechen
+- family: Tramer
+  given: Florian
+- family: Liang
+  given: Percy
+- family: Hashimoto
+  given: Tatsunori
+booktitle: International Conference on Learning Representations
+files:
+- tt.data
+notes: notes.tex
+ref: li2022large
+time-added: 2022-05-23-10:14:26
+title: Large Language Models Can Be Strong Differentially Private Learners
+type: inproceedings
+url: https://openreview.net/forum?id=bVuP3ltATMz
+year: '2022'
